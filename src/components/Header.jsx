@@ -8,6 +8,7 @@ export default function Header() {
         <nav>
           <NavLink to="/termos">Termos</NavLink>
           <NavLink to="/privacidade">Privacidade</NavLink>
+          <NavLink to="/exclusao">Exclusão</NavLink>
         </nav>
       </div>
     </header>
