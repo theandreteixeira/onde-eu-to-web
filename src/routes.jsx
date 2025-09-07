@@ -13,6 +13,7 @@ export default function RoutesView() {
         <Route path="/termos" element={<Terms />} />
         <Route path="/privacidade" element={<Privacy />} />
         <Route path="/exclusao" element={<DeleteAccount />} />
+         <Route path="/institucional" element={<Institutional />} />
       </Routes>
     </Layout>
   );
