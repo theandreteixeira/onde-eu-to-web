@@ -11,7 +11,7 @@
   --card: #111428;
   --text: #e8e8f0;
   --muted: #a7b0c0;
-  --accent: #6e8bff;
+  --accent: #0033ff;
 }
 
 * { box-sizing: border-box; }
@@ -24,7 +24,7 @@ body { margin: 0; background: var(--bg); color: var(--text); font-family: system
 .container { max-width: 980px; margin: 0 auto; padding: 16px; display: flex; align-items: center; gap: 16px; }
 .brand { color: var(--text); text-decoration: none; font-weight: 700; }
 .header nav a { color: var(--muted); text-decoration: none; margin-left: 12px; }
-.header nav a.active { color: var(--accent); }
+.header nav a.active { color: #fff; }
 
 /* Elegant Header styles */
 .elegant-header {
@@ -58,6 +58,7 @@ body { margin: 0; background: var(--bg); color: var(--text); font-family: system
 }
 .header-link:hover, .header-link.active {
   background: linear-gradient(90deg, #6e8bff 60%, #4e6edc 100%);
+  color: #ffffff;
   color: #fff;
 }
 .site-content { padding: 24px 16px; }
