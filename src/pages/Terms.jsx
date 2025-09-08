@@ -8,7 +8,7 @@ export default function Terms() {
         <meta name="description" content="Termos de Uso do aplicativo Onde Eu Tô?." />
       </Helmet>
       <h1>Termos de Uso</h1>
-      <p>Última atualização: 05/09/2025</p>
+      <p>Última atualização: 08/09/2025</p>
 
       <h2>1. Sobre o app</h2>
       <p><strong>Onde Eu Tô?</strong> é um jogo mobile em que você observa uma cena no Street View e tenta adivinhar o local no mapa. O app utiliza APIs do Google (Maps/Street View).</p>
@@ -38,7 +38,7 @@ export default function Terms() {
       <p>Podemos atualizar estes Termos a qualquer momento. A versão vigente é a publicada neste site.</p>
 
       <h2>8. Contato</h2>
-      <p>E-mail de contato: suporte@seu-dominio.com</p>
+      <p>E-mail de contato: andredesenvolvimento09@gmail.com</p>
     </div>
   );
 }

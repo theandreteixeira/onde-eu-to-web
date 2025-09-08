@@ -8,10 +8,10 @@ export default function Privacy() {
         <meta name="description" content="Política de Privacidade do aplicativo Onde Eu Tô?." />
       </Helmet>
       <h1>Política de Privacidade</h1>
-      <p>Última atualização: 05/09/2025</p>
+      <p>Última atualização: 08/05/2025</p>
 
       <h2>1. Controlador</h2>
-      <p>Este app é operado por [Seu Nome/Empresa], contato: privacidade@seu-dominio.com.</p>
+      <p>Este app é operado por Onde Eu Tô?, contato: andredesenvolvimento09@gmail.com.</p>
 
       <h2>2. Dados coletados</h2>
       <ul>
