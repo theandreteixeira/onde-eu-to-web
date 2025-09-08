@@ -200,18 +200,6 @@ a { color: var(--accent); }
   background: linear-gradient(90deg, #ff6e8b 60%, #6e8bff 100%);
 }
 
-/* Animated background for Home */
-.home-bg-animated {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  border-radius: 18px;
-  pointer-events: none;
-  background: radial-gradient(circle at 30% 40%, #6e8bff33 0%, #111428 70%),
-              radial-gradient(circle at 70% 60%, #ff6e8b22 0%, #111428 80%);
-  animation: home-bg-move 8s ease-in-out infinite alternate;
-}
-
 @keyframes home-bg-move {
   0% { background-position: 30% 40%, 70% 60%; }
   100% { background-position: 40% 50%, 60% 70%; }

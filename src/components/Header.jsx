@@ -5,7 +5,7 @@ export default function Header() {
     <header className="header elegant-header">
       <div className="container header-flex">
         <Link to="/" className="brand">
-          <img src="/src/assets/icon_app.png" alt="Logo" className="header-logo" />
+          <img src="/icon_app.png" alt="Logo" className="header-logo" />
           Onde Eu Tô?
         </Link>
         <nav>

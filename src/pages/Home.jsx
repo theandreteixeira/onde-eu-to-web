@@ -28,9 +28,9 @@ export default function Home() {
         <meta property="og:title" content="Onde Eu Tô?" />
         <meta property="og:description" content="Adivinhe o local no mapa usando o Street View." />
       </Helmet>
-      <div className="home-bg-animated" />
+      <div />
       <div className="home-graphic">
-        <img src="/src/assets/icon_app.png" alt="Logo Onde Eu Tô" className="home-logo" />
+        <img src="/icon_app.png" alt="Logo Onde Eu Tô" className="home-logo" />
         <div className="home-gradient" />
       </div>
   <h1 className="home-title">Onde Eu Tô?</h1>
@@ -38,8 +38,8 @@ export default function Home() {
   <p className="home-desc">Adivinhe cidades, paisagens e cultura brasileira usando o Street View. Teste seus conhecimentos e explore o país sem sair de casa!</p>
   <div className="home-slogan">Descubra o Brasil sem sair de casa!</div>
       <div className="home-tags">
-        <img src="/src/assets/botao_disponivel_android.png" alt="Disponível para Android" className="home-tag-img" />
-        <img src="/src/assets/botao_disponivel_ios.png" alt="Disponível para iOS" className="home-tag-img" />
+        <img src="/botao_disponivel_android.png" alt="Disponível para Android" className="home-tag-img" />
+        <img src="/botao_disponivel_ios.png" alt="Disponível para iOS" className="home-tag-img" />
       </div>
       <div className="home-actions">
         <a href="#" className="home-btn" onClick={handleStoreClick}>Baixar o App</a>

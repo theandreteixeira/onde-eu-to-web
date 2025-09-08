@@ -9,15 +9,13 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-contact">
-          <span>Contato: <a href="mailto:contato@ondeeu.to">contato@ondeeu.to</a></span>
+          <span>Contato: <a href="mailto:andredesenvolvimento09@gmail.com">andredesenvolvimento09@gmail.com</a></span>
           <div className="footer-social">
-            <a href="https://instagram.com/ondeeu.to" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
-            <span> | </span>
-            <a href="https://twitter.com/ondeeuto" target="_blank" rel="noopener" aria-label="Twitter">Twitter</a>
+            <a href="https://instagram.com/theandreteixeira" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
           </div>
         </div>
         <div className="footer-credits">
-          <span>Desenvolvido por <a href="https://theandreteixeira.com" target="_blank" rel="noopener">theandreteixeira</a></span>
+          <span>Desenvolvido por <a href="https://instagram.com/theandreteixeira" target="_blank" rel="noopener">theandreteixeira</a></span>
         </div>
       </div>
     </footer>
