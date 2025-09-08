@@ -291,3 +291,89 @@ ul { color: var(--muted); }
 .footer-credits a:hover {
   text-decoration: underline;
 }
+
+/* Responsividade geral */
+@media (max-width: 700px) {
+  .container {
+    max-width: 98vw;
+    padding: 10px;
+    gap: 8px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .header-flex {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .footer-flex {
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .home-hero {
+    padding: 18px 4vw 32px 4vw;
+    min-height: 70vw;
+  }
+  .home-graphic {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+  }
+  .home-logo {
+    width: 70px;
+    height: 70px;
+  }
+  .home-title {
+    font-size: 2.1rem;
+    margin-bottom: 2px;
+  }
+  .home-subtitle {
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+  }
+  .home-desc {
+    font-size: 1rem;
+    margin-bottom: 16px;
+  }
+  .home-actions {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 12px;
+    align-items: stretch;
+  }
+  .home-btn, .home-link {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    padding: 12px 0;
+  }
+  .home-tags {
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+  .home-tag-img {
+    height: 28px;
+    margin: 0 2px;
+  }
+  .home-avatar img {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+@media (max-width: 430px) {
+  .home-title {
+    font-size: 1.3rem;
+  }
+  .home-subtitle {
+    font-size: 0.9rem;
+  }
+  .home-desc {
+    font-size: 0.9rem;
+  }
+  .home-btn, .home-link {
+    font-size: 0.95rem;
+    padding: 10px 0;
+  }
+}
