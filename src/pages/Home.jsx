@@ -37,6 +37,10 @@ export default function Home() {
   <h2 className="home-subtitle">O desafio geográfico mais divertido do Brasil</h2>
   <p className="home-desc">Adivinhe cidades, paisagens e cultura brasileira usando o Street View. Teste seus conhecimentos e explore o país sem sair de casa!</p>
   <div className="home-slogan">Descubra o Brasil sem sair de casa!</div>
+      <div className="home-tags">
+        <img src="/src/assets/botao_disponivel_android.png" alt="Disponível para Android" className="home-tag-img" />
+        <img src="/src/assets/botao_disponivel_ios.png" alt="Disponível para iOS" className="home-tag-img" />
+      </div>
       <div className="home-actions">
         <a href="#" className="home-btn" onClick={handleStoreClick}>Baixar o App</a>
         <a href="/termos" className="home-link">Termos de Uso</a>

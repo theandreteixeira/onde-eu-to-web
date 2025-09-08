@@ -1,3 +1,11 @@
+.home-tag-img {
+  height: 36px;
+  width: auto;
+  margin: 0 6px;
+  vertical-align: middle;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #6e8bff33;
+}
 :root {
   --bg: #0a0a12;
   --card: #111428;
@@ -165,6 +173,31 @@ a { color: var(--accent); }
   color: var(--muted);
   font-size: 1rem;
   opacity: 0.8;
+}
+
+/* Home tags for app availability */
+.home-tags {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.home-tag {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 16px;
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: #fff;
+  background: #22243a;
+  box-shadow: 0 2px 8px #6e8bff33;
+  letter-spacing: 0.2px;
+}
+.home-tag.android {
+  background: linear-gradient(90deg, #6e8bff 60%, #4e6edc 100%);
+}
+.home-tag.ios {
+  background: linear-gradient(90deg, #ff6e8b 60%, #6e8bff 100%);
 }
 
 /* Animated background for Home */
